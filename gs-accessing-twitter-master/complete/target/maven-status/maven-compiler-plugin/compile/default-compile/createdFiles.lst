@@ -1,0 +1,7 @@
+course\domain\User.class
+course\controller\Application.class
+course\controller\MainController.class
+course\domain\Sites.class
+course\dao\UserDao.class
+course\config\DatabaseConfig.class
+course\controller\SocialController.class

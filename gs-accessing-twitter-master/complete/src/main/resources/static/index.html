@@ -1,0 +1,27 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+    <title>Phone Book</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<body ng-app="course">
+<div class="container" ng-controller="MainController">
+    <form action="/connect/twitter" method="POST">
+        <p><button type="submit">Connect to Twitter</button></p>
+    </form>
+
+    <form action="/connect/facebook" method="POST">
+        <p><button type="submit">Connect to Facebook</button></p>
+    </form>
+</div>
+
+<span th:text="${connectStatus}" ></span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
